@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_foobar';
-$plugin->release = 'v1.1';
-$plugin->version = 2021070201;
+$plugin->release = 'v1.1+fix';
+$plugin->version = 2021070202;
 $plugin->requires = 2020061500;
 $plugin->maturity = MATURITY_ALPHA;
