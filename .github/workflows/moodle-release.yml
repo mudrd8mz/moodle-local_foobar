@@ -23,7 +23,7 @@ jobs:
   release-at-moodle-org:
     runs-on: ubuntu-latest
     env:
-      PLUGIN: mod_subcourse
+      PLUGIN: local_foobar
       CURL: curl -s -u ${{ secrets.CURL_AUTH }}
       ENDPOINT: https://next.moodle.org/webservice/rest/server.php
       TOKEN: ${{ secrets.MOODLE_ORG_TOKEN }}
